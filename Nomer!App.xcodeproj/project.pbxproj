@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7768D327EE42B10096F1BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7768D227EE42B10096F1BA /* Home.swift */; };
+		CE7768D527EE42DF0096F1BA /* LoginIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7768D427EE42DF0096F1BA /* LoginIn.swift */; };
+		CE7768D727EE43000096F1BA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7768D627EE43000096F1BA /* SignUp.swift */; };
 		CEA8F3F427E22A2200A37F20 /* Nomer_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F3F327E22A2200A37F20 /* Nomer_AppApp.swift */; };
-		CEA8F3F627E22A2200A37F20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F3F527E22A2200A37F20 /* ContentView.swift */; };
+		CEA8F3F627E22A2200A37F20 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F3F527E22A2200A37F20 /* HomePage.swift */; };
 		CEA8F3F827E22A2300A37F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA8F3F727E22A2300A37F20 /* Assets.xcassets */; };
 		CEA8F3FB27E22A2300A37F20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA8F3FA27E22A2300A37F20 /* Preview Assets.xcassets */; };
+		CEA8F40427E22C8000A37F20 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F40327E22C8000A37F20 /* SearchPage.swift */; };
+		CEA8F40627E22CD700A37F20 /* StaticPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F40527E22CD700A37F20 /* StaticPage.swift */; };
+		CEA8F40827E22CF300A37F20 /* PersonSettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F40727E22CF300A37F20 /* PersonSettingPage.swift */; };
+		CEA8F40A27E22D0C00A37F20 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F40927E22D0C00A37F20 /* TabBar.swift */; };
+		CEA8F40C27E22E4500A37F20 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F40B27E22E4500A37F20 /* FirstPage.swift */; };
+		CEA8F40F27E234AA00A37F20 /* PersonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F40E27E234AA00A37F20 /* PersonMenu.swift */; };
+		CEA8F41127E2459600A37F20 /* MyProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8F41027E2459600A37F20 /* MyProfilePage.swift */; };
+		CEBC9A4327E7CB0600B2AEDE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC9A4227E7CB0600B2AEDE /* Persistence.swift */; };
+		CEBC9A4927E911CA00B2AEDE /* TaskCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEBC9A4727E911C900B2AEDE /* TaskCoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7768D227EE42B10096F1BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CE7768D427EE42DF0096F1BA /* LoginIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIn.swift; sourceTree = "<group>"; };
+		CE7768D627EE43000096F1BA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		CEA8F3F027E22A2200A37F20 /* Nomer!App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomer!App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA8F3F327E22A2200A37F20 /* Nomer_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomer_AppApp.swift; sourceTree = "<group>"; };
-		CEA8F3F527E22A2200A37F20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA8F3F527E22A2200A37F20 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		CEA8F3F727E22A2300A37F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA8F3FA27E22A2300A37F20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA8F40327E22C8000A37F20 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		CEA8F40527E22CD700A37F20 /* StaticPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticPage.swift; sourceTree = "<group>"; };
+		CEA8F40727E22CF300A37F20 /* PersonSettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSettingPage.swift; sourceTree = "<group>"; };
+		CEA8F40927E22D0C00A37F20 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		CEA8F40B27E22E4500A37F20 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		CEA8F40E27E234AA00A37F20 /* PersonMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMenu.swift; sourceTree = "<group>"; };
+		CEA8F41027E2459600A37F20 /* MyProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfilePage.swift; sourceTree = "<group>"; };
+		CEBC9A4227E7CB0600B2AEDE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CEBC9A4827E911C900B2AEDE /* TaskCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskCoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE7768D127EE41EF0096F1BA /* RegistrationsPages */ = {
+			isa = PBXGroup;
+			children = (
+				CE7768D227EE42B10096F1BA /* Home.swift */,
+				CE7768D427EE42DF0096F1BA /* LoginIn.swift */,
+				CE7768D627EE43000096F1BA /* SignUp.swift */,
+			);
+			path = RegistrationsPages;
+			sourceTree = "<group>";
+		};
 		CEA8F3E727E22A2200A37F20 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				CEA8F3F327E22A2200A37F20 /* Nomer_AppApp.swift */,
-				CEA8F3F527E22A2200A37F20 /* ContentView.swift */,
-				CEA8F3F727E22A2300A37F20 /* Assets.xcassets */,
+				CEBC9A4727E911C900B2AEDE /* TaskCoreData.xcdatamodeld */,
+				CEBC9A4227E7CB0600B2AEDE /* Persistence.swift */,
+				CEA8F40127E22C2200A37F20 /* Screens */,
+				CEA8F40D27E2348C00A37F20 /* AppDelatils */,
+				CEA8F40227E22C3300A37F20 /* AppUtils */,
 				CEA8F3F927E22A2300A37F20 /* Preview Content */,
 			);
 			path = "Nomer!App";
@@ -65,6 +102,37 @@
 				CEA8F3FA27E22A2300A37F20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA8F40127E22C2200A37F20 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE7768D127EE41EF0096F1BA /* RegistrationsPages */,
+				CEA8F40B27E22E4500A37F20 /* FirstPage.swift */,
+				CEA8F40927E22D0C00A37F20 /* TabBar.swift */,
+				CEA8F3F527E22A2200A37F20 /* HomePage.swift */,
+				CEA8F40327E22C8000A37F20 /* SearchPage.swift */,
+				CEA8F40527E22CD700A37F20 /* StaticPage.swift */,
+				CEA8F40727E22CF300A37F20 /* PersonSettingPage.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CEA8F40227E22C3300A37F20 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8F3F727E22A2300A37F20 /* Assets.xcassets */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		CEA8F40D27E2348C00A37F20 /* AppDelatils */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8F40E27E234AA00A37F20 /* PersonMenu.swift */,
+				CEA8F41027E2459600A37F20 /* MyProfilePage.swift */,
+			);
+			path = AppDelatils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA8F3F627E22A2200A37F20 /* ContentView.swift in Sources */,
+				CEA8F40627E22CD700A37F20 /* StaticPage.swift in Sources */,
+				CEA8F3F627E22A2200A37F20 /* HomePage.swift in Sources */,
 				CEA8F3F427E22A2200A37F20 /* Nomer_AppApp.swift in Sources */,
+				CEA8F40C27E22E4500A37F20 /* FirstPage.swift in Sources */,
+				CEA8F40A27E22D0C00A37F20 /* TabBar.swift in Sources */,
+				CEA8F40427E22C8000A37F20 /* SearchPage.swift in Sources */,
+				CE7768D527EE42DF0096F1BA /* LoginIn.swift in Sources */,
+				CE7768D727EE43000096F1BA /* SignUp.swift in Sources */,
+				CEA8F40827E22CF300A37F20 /* PersonSettingPage.swift in Sources */,
+				CEBC9A4927E911CA00B2AEDE /* TaskCoreData.xcdatamodeld in Sources */,
+				CEA8F41127E2459600A37F20 /* MyProfilePage.swift in Sources */,
+				CEA8F40F27E234AA00A37F20 /* PersonMenu.swift in Sources */,
+				CE7768D327EE42B10096F1BA /* Home.swift in Sources */,
+				CEBC9A4327E7CB0600B2AEDE /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +421,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEBC9A4727E911C900B2AEDE /* TaskCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEBC9A4827E911C900B2AEDE /* TaskCoreData.xcdatamodel */,
+			);
+			currentVersion = CEBC9A4827E911C900B2AEDE /* TaskCoreData.xcdatamodel */;
+			path = TaskCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEA8F3E827E22A2200A37F20 /* Project object */;
 }

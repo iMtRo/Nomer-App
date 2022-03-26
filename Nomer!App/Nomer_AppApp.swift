@@ -1,17 +1,18 @@
-//
-//  Nomer_AppApp.swift
-//  Nomer!App
-//
-//  Created by user on 16/03/22.
-//
-
 import SwiftUI
 
 @main
 struct Nomer_AppApp: App {
+    
+    let persistenceController = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstPage()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
+}
+extension UIScene {
+    static let width = UIScreen.main.bounds.size.width
+    static let height = UIScreen.main.bounds.size.height
 }
